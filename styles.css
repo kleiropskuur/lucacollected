@@ -97,8 +97,6 @@ mark{
     visibility: hidden;
   
     transition: .1s;
-
-    background-color: #FFFFFF;
   }
   .menubtn span:nth-child(3){
     top: 80%;
