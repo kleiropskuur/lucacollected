@@ -8,13 +8,13 @@
 /*----------------------------------------------------------------------------------*/
 
 @font-face {
-    font-family: 'inter';
+    font-family: 'inter-regular';
     src: url(fonts/Inter/static/Inter-Regular.ttf);
     font-weight: normal;
   }
 
 body{
-    font-family: sans-serif;
+    font-family: inter-regular;
 }
 
 .menubtn{
