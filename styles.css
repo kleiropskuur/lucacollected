@@ -4,7 +4,85 @@
 }
 
 /*----------------------------------------------------------------------------------*/
-/* HOME */
+/*ALL-------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+
+.menubtn{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 2;
+  
+    width: 30px;
+    height: 30px;
+  
+    display: flex;
+  
+  }
+  .menubtn span{
+    position: absolute;
+  
+    width: 100%;
+    height: 2px;
+    background-color: black;
+  
+    transition: .3s;
+  }
+  .menubtn span:nth-child(1){
+    top: 20%;
+  }
+  .menubtn.is-active span:nth-child(1){
+    top: 50%;
+  
+    transform: rotate(45deg);
+  }
+  .menubtn span:nth-child(2){
+    top: 50%;
+  }
+  .menubtn.is-active span:nth-child(2){
+    visibility: hidden;
+  
+    transition: .1s;
+  }
+  .menubtn span:nth-child(3){
+    top: 80%;
+  }
+  .menubtn.is-active span:nth-child(3){
+    top: 50%;
+  
+    transform: rotate(-45deg);
+  }
+  .menu{
+    position: fixed;
+    z-index: 1;
+  
+    width: 100vw;
+    height: 100vh;
+    background-color: #BAFF29;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    transition: .3s;
+  
+    visibility: hidden;
+    opacity: 0;
+  }
+  .menu.is-active{
+    visibility: visible;
+    opacity: 1;
+  }
+  .menuitem{
+    list-style: none;
+  }
+  .menulink{
+    color: #0F0A0A;
+    text-decoration: none;
+  }
+
+/*----------------------------------------------------------------------------------*/
+/*HOME------------------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------------*/
 
 .wrapper{
