@@ -38,6 +38,9 @@ body{
     font-size: 1.1em;
 }
 
+.snap{
+    padding-left: 20px;
+}
 
 header{
     position: fixed;
