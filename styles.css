@@ -3,13 +3,31 @@
     padding: 0;
 }
 
-p{
-    font-size: 3em;
-    color: red;
-}
+/*----------------------------------------------------------------------------------*/
+/* HOME */
+/*----------------------------------------------------------------------------------*/
 
-iframe{
-    width: 360px;
-    height: 360px;
-    background-color: blueviolet;
+.wrapper{
+    height: 100vh;
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
+}
+.snap{
+    height: 100vh;
+    scroll-snap-align: start;
+}
+.wrapper .snap:nth-child(1){
+    background-color: red;
+}
+.wrapper .snap:nth-child(2){
+    background-color: yellow;
+}
+.wrapper .snap:nth-child(3){
+    background-color: green;
+}
+.wrapper .snap:nth-child(4){
+    background-color: blue;
+}
+.wrapper .snap:nth-child(5){
+    background-color: purple;
 }
