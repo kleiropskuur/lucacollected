@@ -7,6 +7,16 @@
 /*ALL-------------------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------------*/
 
+@font-face {
+    font-family: 'inter';
+    src: url(fonts/Inter/static/Inter-Regular.ttf);
+    font-weight: normal;
+  }
+
+body{
+    font-family: sans-serif;
+}
+
 .menubtn{
     position: fixed;
     top: 20px;
