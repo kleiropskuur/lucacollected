@@ -4,7 +4,7 @@
 }
 
 /*----------------------------------------------------------------------------------*/
-/*ALL-------------------------------------------------------------------------------*/
+/*TYPOGRAPHY------------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------------*/
 
 @font-face {
@@ -12,9 +12,48 @@
     src: url(fonts/Inter/static/Inter-Regular.ttf);
     font-weight: normal;
   }
+/*----------------------------------------------------------------------------------*/
+@font-face {
+    font-family: 'luca-regular';
+    src: url(fonts/LUCA/LUCA_4_Regular.ttf);
+}
+@font-face {
+    font-family: 'luca-bold';
+    src: url(fonts/LUCA/LUCA_7_Bold.ttf);
+}
+@font-face {
+    font-family: 'luca-underline';
+    src: url(fonts/LUCA/LUCA_4_Regular_Underline.ttf);
+}
+@font-face {
+    font-family: 'luca-underline-bold';
+    src: url(fonts/LUCA/LUCA_7_Bold_Underline.ttf);
+}
+/*----------------------------------------------------------------------------------*/
+/*ALL-------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------*/
 
 body{
     font-family: inter-regular;
+}
+
+
+header{
+    position: fixed;
+    z-index: 2;
+    padding-top: 25px;
+    padding-left: 20px;
+    background: 0;
+    font-family: luca-bold;
+    font-size: 1.2em;
+}
+.header{
+    color: #0F0A0A;
+    text-decoration: none;
+}
+mark{
+    background: 0;
+    font-family: luca-underline-bold;
 }
 
 .menubtn{
@@ -91,6 +130,9 @@ body{
     text-decoration: none;
   }
 
+  .snap{
+    padding-top: 75px;
+  }
 /*----------------------------------------------------------------------------------*/
 /*HOME------------------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------------*/
