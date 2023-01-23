@@ -203,3 +203,16 @@ iframe{
   height: calc(100vw - 40px);
   background-color: pink;
 }
+
+.book{
+  color: #0F0A0A;
+  text-decoration: none;
+}
+.title{
+  font-family: inter-medium;
+  font-size: 1.1em;
+}
+.divider{
+  margin-top: 1em;
+  border: 0.5px solid #0F0A0A;
+}
