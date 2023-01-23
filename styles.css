@@ -208,6 +208,7 @@ iframe{
   color: #0F0A0A;
   text-decoration: none;
 }
+
 .title{
   margin-bottom: 0.5em;
   font-family: inter-medium;
@@ -219,5 +220,6 @@ iframe{
 }
 .divider{
   margin-top: 1em;
+  margin-bottom: 2em;
   border: 0.5px solid #0F0A0A;
 }
