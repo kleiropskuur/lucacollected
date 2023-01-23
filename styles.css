@@ -203,7 +203,14 @@ iframe{
   margin-bottom: 1em;
   background-color: pink;
 }
-
+.resize span{
+  width: 25px;
+  height: 25px;
+  background-color: #FF7557;
+  /*position: relative;
+  bottom: 42px;
+  right: 42px;*/
+}
 .book{
   color: #0F0A0A;
   text-decoration: none;
