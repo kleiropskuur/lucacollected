@@ -133,8 +133,16 @@ mark{
     visibility: visible;
     opacity: 1;
   }
+  .menulist{
+    font-size: 2em;
+  }
   .menuitem{
+    margin-bottom: 0.75em;
     list-style: none;
+    text-align: center;
+  }
+  .menuitem:last-of-type{
+    margin-bottom: 0;
   }
   .menulink{
     color: #FFFFFF;
