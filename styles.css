@@ -149,7 +149,6 @@ mark{
   .menuitem{
     margin-bottom: 0.75em;
     list-style: none;
-    text-align: center;
   }
   .menuitem:last-of-type{
     margin-bottom: 0;
@@ -210,6 +209,7 @@ iframe{
   text-decoration: none;
 }
 .title{
+  margin-bottom: 0.5em;
   font-family: inter-medium;
   font-size: 1.1em;
   color: #0F0A0A;
