@@ -175,7 +175,30 @@ mark{
     scroll-snap-align: start;
 }
 .wrapper .snap:nth-child(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: white;
+}
+.searchbar{
+  width: 80vw;
+  height: 1.5em;
+
+  border: 0.5px solid #0F0A0A;
+  border-radius: 50px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: auto 10px;
+}
+.searchbar form input{
+  margin-left: 10px;
+  border: none;
+}
+.searchbar img{
+  height: 90%;
+  margin-right: 10px;
 }
 .wrapper .snap:nth-child(2){
     background-color: yellow;
