@@ -189,6 +189,7 @@ mark{
   padding: auto 10px;
 }
 .searchbar form input{
+  width: 75vw;
   margin-left: 10px;
   border: none;
 }
@@ -206,12 +207,14 @@ mark{
     background-color: blue;
 }
 .wrapper .snap:nth-child(5){
-    padding-top: 75px;
     padding-left: 20px;
-    background-color: lightgray;
+    background-color: #FFCCFA;
 }
 .e ul{
   margin-bottom: 2em;
+}
+.e ul:nth-child(1){
+  padding-top: 20vh;
 }
 .e ul li{
   list-style: none;
