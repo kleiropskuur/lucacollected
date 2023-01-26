@@ -48,6 +48,10 @@ body{
     font-size: 1.1em;
 }
 
+a{
+  color: #0F65E5;
+}
+
 header{
     position: fixed;
     z-index: 2;
