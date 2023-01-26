@@ -190,8 +190,19 @@ mark{
     padding-top: 75px;
     background-color: lightgray;
 }
+.e ul{
+  margin-bottom: 2em;
+}
 .e ul li{
   list-style: none;
+}
+.e ul li .l{
+  color: #0F0A0A;
+  text-decoration: none;
+}
+.e ul li a{
+  line-height: 1.5em;
+
 }
 /*----------------------------------------------------------------------------------*/
 /*OVERVIEW--------------------------------------------------------------------------*/
