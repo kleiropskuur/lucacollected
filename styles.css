@@ -175,7 +175,7 @@ mark{
     scroll-snap-align: start;
 }
 .wrapper .snap:nth-child(1){
-    background-color: red;
+    background-color: white;
 }
 .wrapper .snap:nth-child(2){
     background-color: yellow;
