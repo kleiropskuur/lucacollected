@@ -273,18 +273,7 @@ h4{
 /*OVERVIEW--------------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------------*/
 
-.options{
-  display: flex;
-  justify-content: space-around;
 
-  border-top: 0.5 solid #0F0A0A;
-  border-bottom: 0.5 solid #0F0A0A;
-}
-.options span{
-  height: 100%;
-  width: 1px;
-  background-color: #0F0A0A;
-}
 .collection{
   padding: 75px 20px 20px 20px;
 }
