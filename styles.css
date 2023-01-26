@@ -48,10 +48,6 @@ body{
     font-size: 1.1em;
 }
 
-.snap{
-    padding-left: 20px;
-}
-
 header{
     position: fixed;
     z-index: 2;
@@ -181,7 +177,7 @@ mark{
     background-color: white;
 }
 .searchbar{
-  width: 80vw;
+  width: 90vw;
   height: 1.5em;
 
   border: 0.5px solid #0F0A0A;
@@ -211,6 +207,7 @@ mark{
 }
 .wrapper .snap:nth-child(5){
     padding-top: 75px;
+    padding-left: 20px;
     background-color: lightgray;
 }
 .e ul{
